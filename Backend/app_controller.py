@@ -1,8 +1,8 @@
-from app_model import WeatherReport
+from Backend.app_model import WeatherReport
 from datetime import datetime, timedelta
 import requests
 import json
-from app_config import DARKSKY_API, CERTIFICATE
+from Backend.app_config import DARKSKY_API, CERTIFICATE
 
 
 class WeatherController:
